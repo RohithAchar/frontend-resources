@@ -1,3 +1,4 @@
+import Button from "@/components/button";
 import Card from "@/components/card";
 import Container from "@/components/container";
 import {
@@ -8,7 +9,6 @@ import {
   developerToolsResources,
   chartsDataVisualizations,
   fileUploads,
-  audioVideo,
 } from "@/lib/data";
 
 export default function Home() {
@@ -23,6 +23,13 @@ export default function Home() {
             Your Ultimate Hub for Frontend Resources: Tools, Libraries, and
             Inspiration at Your Fingertips!
           </p>
+          <a
+            href="https://github.com/RohithAchar/frontend-resources"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button />
+          </a>
         </div>
         <section className="mx-6 flex flex-col gap-y-4">
           <h2 className="text-xl text-slate-900 font-semibold text-center md:text-left">
